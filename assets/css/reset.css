@@ -14,6 +14,10 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color:unset;
+}
+
 h1,
 h2,
 h3,

@@ -2,32 +2,97 @@
   --primary-txt-color: #ffffff;
   --secondary-txt-color: #ffffff;
   --tertiary-txt-color: #ffffff;
-  --primary-bg-color: rgb(20,20,20);
-  --secondary-bg-color: rgb(40,40,40);
-  --tertiary-bg-color: rgb(60,60,60);
-  --quaternary-bg-color: rgb(80,80,80);
+  --primary-bg-color: rgb(20, 20, 20);
+  --secondary-bg-color: rgb(40, 40, 40);
+  --tertiary-bg-color: rgb(60, 60, 60);
+  --quaternary-bg-color: rgb(80, 80, 80);
 }
 
-
+* {
+  font-size: 16px;
+}
 
 body {
- color: var(--primary-txt-color);
+  color: var(--primary-txt-color);
   background-color: var(--primary-bg-color);
 }
 
+header {
+ padding: 1rem;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+nav {
+  width: 15%;
+}
+
+nav ul {
+ display: flex;
+ flex-direction: column;
+}
+.nav-li{
+ 
+ margin-left: 1rem;
+}
 .color-primary {
- color: var(--primary-txt-color);
- background-color: var(--primary-bg-color);
+  color: var(--primary-txt-color);
+  background-color: var(--primary-bg-color);
 }
 .color-secondary {
- color: var(--secondary-txt-color);
- background-color: var(--secondary-bg-color);
+  color: var(--secondary-txt-color);
+  background-color: var(--secondary-bg-color);
 }
 .color-tertiary {
- color: var(--tertiary-txt-color);
- background-color: var(--tertiary-bg-color);
+  color: var(--tertiary-txt-color);
+  background-color: var(--tertiary-bg-color);
 }
 .color-quaternary {
- color: var(--tertiary-txt-color);
- background-color: var(--quaternary-bg-color);
+  color: var(--tertiary-txt-color);
+  background-color: var(--quaternary-bg-color);
+}
+
+.page-container {
+  display: flex;
+  position: relative;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 20px;
+  }
+  nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: unset;
+    height: 2rem;
+    /* display: flex; */
+  }
+  nav ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  .nav-li {
+   flex: 1;
+   text-align: center;
+   line-height: 3rem;
+   margin-left: unset;
+  }
+  .nav-li * {
+   font-size: 120%;
+  }
+  .main-container {
+    margin-top: 3rem;
+    width: 100%;
+  }
 }
