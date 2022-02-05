@@ -9,7 +9,7 @@
 }
 
 * {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -34,9 +34,18 @@ nav ul {
  flex-direction: column;
 }
 .nav-li{
- 
- margin-left: 1rem;
+ height: 2.5rem;
 }
+
+.nav-li a {
+ padding-left: 1rem;
+ display: flex;
+ align-items: center;
+ height: 100%;
+ border: 2px solid var(--secondary-bg-color);
+ 
+}
+
 .color-primary {
   color: var(--primary-txt-color);
   background-color: var(--primary-bg-color);
@@ -81,16 +90,22 @@ nav ul {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+   height: 3rem;
   }
   .nav-li {
    flex: 1;
-   text-align: center;
-   line-height: 3rem;
+   height: unset;
    margin-left: unset;
   }
   .nav-li * {
    font-size: 120%;
   }
+
+  .nav-li a {
+   justify-content: center;
+   padding-left: unset;
+  }
+  
   .main-container {
     margin-top: 3rem;
     width: 100%;
