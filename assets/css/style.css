@@ -22,15 +22,15 @@ header {
 }
 
 h1 {
-  font-size: 400%;
+  font-size: 350%;
 }
 
 h2 {
-  font-size: 275%;
+  font-size: 225%;
 }
 
 h3 {
-  font-size: 200%;
+  font-size: 150%;
 }
 
 header {
@@ -39,25 +39,25 @@ header {
 }
 
 nav {
-  width: 15%;
+  /* width: 15%; */
 }
 
 nav ul {
   display: flex;
-  flex-direction: column;
 }
 
 .header-text {
- flex: 1;
- text-align: center; 
+  flex: 1;
+  text-align: center;
 }
 
 .nav-li {
-  height: 2.5rem;
+  height: 3.5rem;
 }
 
 .nav-li a {
-  padding-left: 1rem;
+  font-size: 140%;
+  padding: 1rem 1rem;
   display: flex;
   align-items: center;
   height: 100%;
@@ -88,7 +88,7 @@ nav ul {
 
 .main-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 1rem auto 0rem auto;
   width: 75%;
   padding: 0rem 2rem 2rem 2rem;
 }
@@ -117,12 +117,11 @@ nav ul {
     align-items: unset;
   }
 
-  nav {
-    position: absolute;
-    top: 0;
+  nav {    
+   margin-top: 1rem;
     width: 100%;
     max-width: unset;
-    height: 2rem;
+    /* height: 2rem; */
     /* display: flex; */
   }
   nav ul {
@@ -132,8 +131,8 @@ nav ul {
     height: 3rem;
   }
 
-  .header-text{
-   padding-top: 1rem;
+  .header-text {
+    padding-top: 1rem;
   }
 
   .nav-li {
@@ -141,18 +140,22 @@ nav ul {
     height: unset;
     margin-left: unset;
   }
-  .nav-li * {
-    font-size: 120%;
-  }
+  /* .nav-li * {
+    font-size: 100%;
+  } */
 
   .nav-li a {
+   font-size: 120%;
     justify-content: center;
-    padding-left: unset;
+    padding: unset;
   }
 
   .main-container {
-    margin-top: 3rem;
+    margin-top: 0rem;
     width: 100%;
     padding: 0rem 1rem 2rem 1rem;
+  }
+  .section:nth-of-type(1) {
+    margin-top: 1rem;
   }
 }
