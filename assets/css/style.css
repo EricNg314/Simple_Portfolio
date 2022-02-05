@@ -1,0 +1,33 @@
+:root {
+  --primary-txt-color: #ffffff;
+  --secondary-txt-color: #ffffff;
+  --tertiary-txt-color: #ffffff;
+  --primary-bg-color: rgb(20,20,20);
+  --secondary-bg-color: rgb(40,40,40);
+  --tertiary-bg-color: rgb(60,60,60);
+  --quaternary-bg-color: rgb(80,80,80);
+}
+
+
+
+body {
+ color: var(--primary-txt-color);
+  background-color: var(--primary-bg-color);
+}
+
+.color-primary {
+ color: var(--primary-txt-color);
+ background-color: var(--primary-bg-color);
+}
+.color-secondary {
+ color: var(--secondary-txt-color);
+ background-color: var(--secondary-bg-color);
+}
+.color-tertiary {
+ color: var(--tertiary-txt-color);
+ background-color: var(--tertiary-bg-color);
+}
+.color-quaternary {
+ color: var(--tertiary-txt-color);
+ background-color: var(--quaternary-bg-color);
+}
