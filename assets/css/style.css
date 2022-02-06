@@ -92,6 +92,11 @@ p {
   background-color: var(--quaternary-bg-color);
 }
 
+.about-image-container {
+  width: 50%;
+  margin: 0 auto 1rem auto;
+}
+
 .page-container {
   display: flex;
   position: relative;
@@ -119,6 +124,10 @@ p {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem 0.5rem;
+}
+
+.project-header{
+  padding: 0.5rem 0;
 }
 
 .project-spotlight {
@@ -188,6 +197,10 @@ p {
 }
 
 @media screen and (max-width: 576px) {
+  .about-image-container {
+    width: 100%;
+  }
+  
   .project-items {
     flex-basis: 100%;
     padding: 0.5rem;
