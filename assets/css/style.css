@@ -150,6 +150,10 @@ p {
   display: none;
 }
 
+.contact-icons{
+  width: 10%;
+}
+
 @media screen and (max-width: 768px) {
   * {
     font-size: 20px;
