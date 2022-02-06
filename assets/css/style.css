@@ -52,6 +52,11 @@ img {
   max-width: 100%;
 }
 
+p {
+  margin-bottom: 1rem;
+  line-height: 1.75rem;
+}
+
 .header-text {
   flex: 1;
   text-align: center;
