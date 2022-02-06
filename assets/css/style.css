@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-  font-size: 350%;
+  font-size: 325%;
 }
 
 h2 {
@@ -68,7 +68,7 @@ p {
 }
 
 .nav-li a {
-  font-size: 140%;
+  font-size: 130%;
   padding: 1rem 1rem;
   display: flex;
   align-items: center;
@@ -147,18 +147,15 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .7);
   justify-content: center;
   align-items: center;
   border: 10px solid var(--quaternary-bg-color);
 }
 
 .overlay-text{
-  background: var(--primary-bg-color);
+  background: var(--tertiary-bg-color);
   padding: 1rem;
-}
-
-.project-a-img:hover {
 }
 
 .project-spotlight {
@@ -179,7 +176,14 @@ p {
   display: none;
 }
 
-.contact-icons {
+.contact-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact-icon {
+  display: flex;
   width: 10%;
 }
 
@@ -228,6 +232,10 @@ p {
   .section:nth-of-type(1) {
     margin-top: 1rem;
   }
+
+  .contact-icon {
+    width: 11%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -239,6 +247,11 @@ p {
     flex-basis: 100%;
     padding: 0.5rem;
   }
+
+  .contact-icon {
+    width: 15%;
+  }
+
   .hide-on-sm {
     display: none;
   }
