@@ -189,7 +189,7 @@ p {
 
 @media screen and (max-width: 768px) {
   * {
-    font-size: 20px;
+    font-size: 18px;
   }
   header {
     display: block;
@@ -239,6 +239,10 @@ p {
 }
 
 @media screen and (max-width: 576px) {
+  * {
+    font-size: 16px;
+  }
+
   .about-image-container {
     width: 100%;
   }
