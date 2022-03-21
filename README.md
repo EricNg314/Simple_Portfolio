@@ -6,7 +6,7 @@
 </div>
 Thanks for visiting my portfolio. This project is a restart compilation for practice and fun.
 
-Deployed Here: https://ericng314.github.io/Simple-Portfolio/
+Deployed Here: https://ericng314.github.io/Simple_Portfolio/
 
 
 <img src="./assets/images/Portfolio_Image.png" width="100%">
